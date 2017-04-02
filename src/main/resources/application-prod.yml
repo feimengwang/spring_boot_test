@@ -1,0 +1,19 @@
+server:
+  port: 8012
+  compression:
+    enabled: true
+logging:
+  level:
+    root: info
+    org.springframework.security: info
+  file: demo.log
+  path: c:/
+spring:
+  datasource:
+    url: null
+    data-password: null
+    data-username: null
+  thymeleaf:
+    cache: false
+amazon:
+  associateId: habuma-20
